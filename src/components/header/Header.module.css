@@ -14,7 +14,10 @@ header {
 }
 
 /* ========== header social ======== */
-
+.image {
+  width: 29rem;
+  margin-top: 5rem;
+}
 .header__socials {
   display: flex;
   flex-direction: column;

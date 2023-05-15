@@ -11,28 +11,28 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Figmasdasdasd',
+    title: 'test',
     gitbhub: 'https://github.com',
     demo: 'http://dirbbble.com/short'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figmasdasdasd',
+    title: 'test',
     gitbhub: 'https://github.com',
     demo: 'http://dirbbble.com/short'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Figmasdasdasd',
+    title: 'test',
     gitbhub: 'https://github.com',
     demo: 'http://dirbbble.com/short'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Figmasdasdasd',
+    title: 'test',
     gitbhub: 'https://github.com',
     demo: 'http://dirbbble.com/short'
   },

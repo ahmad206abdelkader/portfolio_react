@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './Header.module.css';
 import CTA from './CTA';
-import me from '../../assets/f45138e5-59dc-4207-9cb1-4f37bed098e2-removebg-preview.png';
+import me from '../../assets/man-taking-eye-test-asian-paddle-57091132-removebg-preview.png';
 import HeaderSocial from './HeaderSocial';
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
         </div>
 
         <div className={classes.me}>
-          <div>
+          <div className={classes.image}>
 
             <img src={me} alt='me' />
           </div>
