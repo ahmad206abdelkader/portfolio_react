@@ -29,3 +29,12 @@
   width: 80%;
   margin: 0.8rem auto 0;
 }
+
+@media screen and (max-width: 415px) {
+  .Testimonials__container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 4rem;
+  }
+}

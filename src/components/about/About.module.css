@@ -85,3 +85,44 @@
 
 @media screen and (max-width: 600px) {
 }
+
+@media screen and (max-width: 415px) {
+  .about__container {
+    display: inline;
+  }
+  .about__me {
+    width: 70%;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-primary),
+      transparent
+    );
+  }
+  .about__me_image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    height: 90%;
+    transition: var(--transition);
+  }
+  .about__cards {
+    display: inline;
+    margin-top: 2rem;
+  }
+
+  .about__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    text-align: center;
+    transition: 0.5s;
+    margin-bottom: 1rem;
+  }
+}

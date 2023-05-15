@@ -213,4 +213,8 @@ footer a {
     gap: 2rem;
     padding: 0 2rem 0 2rem;
   }
+  .talk {
+    justify-content: center;
+    text-align: center;
+  }
 }

@@ -45,3 +45,11 @@ p {
 .services__list_icon {
   color: var(--color-primary);
 }
+@media screen and (max-width: 415px) {
+  .Services__container {
+    display: none;
+  }
+  .display {
+    display: none;
+  }
+}

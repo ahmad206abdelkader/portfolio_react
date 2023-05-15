@@ -4,7 +4,7 @@ import { HiCheck } from 'react-icons/hi';
 
 const Services = () => {
   return (
-    <section id='Services'>
+    <section id='Services' className={classes.display}>
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
