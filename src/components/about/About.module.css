@@ -86,7 +86,7 @@
 @media screen and (max-width: 600px) {
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 490px) {
   .about__container {
     display: inline;
   }

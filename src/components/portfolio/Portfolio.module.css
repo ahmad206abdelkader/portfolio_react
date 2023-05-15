@@ -71,3 +71,20 @@
     margin-bottom: 1rem;
   }
 }
+@media screen and (max-width: 490px) {
+  .portfolio__container {
+    display: inline;
+
+    width: 100%;
+    margin-left: 5%;
+  }
+  .portfolio_item {
+    width: 100%;
+    background-color: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: 1s;
+    margin-bottom: 1rem;
+  }
+}

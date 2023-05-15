@@ -365,3 +365,28 @@ header {
     height: 130vh;
   }
 }
+
+@media screen and (max-width: 490px) {
+  header {
+    height: 100vh;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+  .me {
+    left: 10%;
+  }
+  .container {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    left: -3rem;
+  }
+  .container > h1 {
+    margin-left: 5rem;
+  }
+  .container > h5 {
+    margin-left: 5rem;
+  }
+}

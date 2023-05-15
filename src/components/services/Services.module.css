@@ -53,3 +53,11 @@ p {
     display: none;
   }
 }
+@media screen and (max-width: 490px) {
+  .Services__container {
+    display: none;
+  }
+  .display {
+    display: none;
+  }
+}
