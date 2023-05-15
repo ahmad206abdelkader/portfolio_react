@@ -103,6 +103,12 @@ a:hover {
   border-radius: transparent;
 }
 
+.cta {
+  margin-top: 2.5erm;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
