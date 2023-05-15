@@ -59,43 +59,286 @@ header {
   font-size: 0.9rem;
   margin-right: 20%;
 }
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////// */
 
-/* =============media querise (medium device) ============= */
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1588px) {
   header {
-    height: 100vh;
-    padding-top: 1rem;
+    height: 130vh;
+    padding-top: 2rem;
     overflow: hidden;
+    padding-bottom: 1rem;
   }
   .container {
     text-align: center;
-    height: 100%;
+    height: 80%;
     position: relative;
+    width: var(--container-width-lg);
+    margin: 0 auto;
   }
-  .header__socials,
-  .scroll__down {
-    display: none;
+  .header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    margin-left: 20%;
+    bottom: 1rem;
   }
   .me {
     background: linear-gradient(var(--color-primary), transparent);
     padding: 5rem 1.5rem 0 0;
     position: relative;
-    width: 17rem;
-    height: 20rem;
+    width: 22rem;
+    height: 30rem;
     position: absolute;
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    left: 37%;
+    left: 36%;
+  }
+  .scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 7rem;
+    /* transition يقلب الكلمة */
+    transform: rotate(90deg);
+    font-size: 300;
+    font-size: 0.9rem;
+    margin-right: 20%;
   }
 }
 
-/* =============media querise (small device) ============= */
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////// */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1270px) {
+  header {
+    height: 100vh;
+    padding-top: 2rem;
+    overflow: hidden;
+    padding-bottom: 1rem;
+  }
+  .container {
+    text-align: center;
+    height: 80%;
+    position: relative;
+    width: var(--container-width-lg);
+    margin: 0 auto;
+  }
+  .header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    margin-left: 20%;
+    bottom: 1rem;
+  }
+  .me {
+    background: linear-gradient(var(--color-primary), transparent);
+    padding: 5rem 1.5rem 0 0;
+    position: relative;
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    left: 31%;
+  }
+  .scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 7rem;
+    /* transition يقلب الكلمة */
+    transform: rotate(90deg);
+    font-size: 300;
+    font-size: 0.9rem;
+    margin-right: 20%;
+  }
+}
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 1060px) {
   header {
     height: 130vh;
+    padding-top: 2rem;
+    overflow: hidden;
+    padding-bottom: 1rem;
+  }
+  .container {
+    text-align: center;
+    height: 80%;
+    position: relative;
+    width: var(--container-width-lg);
+    margin: 0 auto;
+  }
+  .header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+
+    margin-left: 20%;
+    bottom: 8rem;
+  }
+  .me {
+    background: linear-gradient(var(--color-primary), transparent);
+    padding: 5rem 1.5rem 0 0;
+    position: relative;
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    left: 31%;
+  }
+  .scroll__down {
+    position: absolute;
+    right: -4rem;
+    bottom: 14rem;
+    /* transition يقلب الكلمة */
+    transform: rotate(90deg);
+    font-size: 400;
+    font-size: 0.9rem;
+    margin-right: 20%;
+  }
+}
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////// */
+/* =============media querise (small device) ============= */
+@media screen and (max-width: 1010px) {
+  header {
+    height: 130vh;
+    padding-top: 2rem;
+    overflow: hidden;
+    padding-bottom: 1rem;
+  }
+  .container {
+    text-align: center;
+    height: 80%;
+    position: relative;
+    width: var(--container-width-lg);
+    left: 2rem;
+  }
+  .header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+
+    margin-left: 20%;
+    bottom: 8rem;
+  }
+  .me {
+    background: linear-gradient(var(--color-primary), transparent);
+    padding: 5rem 1.5rem 0 0;
+    position: relative;
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    left: 31%;
+  }
+  .scroll__down {
+    position: absolute;
+    right: -4rem;
+    bottom: 14rem;
+    /* transition يقلب الكلمة */
+    transform: rotate(90deg);
+    font-size: 400;
+    font-size: 0.9rem;
+    margin-right: 20%;
+  }
+}
+@media screen and (max-width: 890px) {
+  .container {
+    text-align: center;
+    height: 80%;
+    position: relative;
+    width: var(--container-width-lg);
+    left: 5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    text-align: center;
+    height: 80%;
+    position: relative;
+    width: var(--container-width-lg);
+    left: 7rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    text-align: center;
+    height: 80%;
+    position: relative;
+    width: var(--container-width-lg);
+    left: 10rem;
+  }
+}
+
+/* ////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////// */
+/* =============media querise (small device) ============= */
+
+@media screen and (max-width: 415px) {
+  header {
+    height: 100vh;
   }
   .header__socials,
   .scroll__down {
@@ -108,5 +351,17 @@ header {
     text-align: center;
     position: relative;
     height: 100vh;
+    left: -3rem;
+  }
+  .container > h1 {
+    margin-left: 5rem;
+  }
+  .container > h5 {
+    margin-left: 5rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  header {
+    height: 130vh;
   }
 }
